@@ -6,7 +6,9 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: const Center(child: Text("Sign Up")),
+          title: const Center(
+            child: Text("Sign Up"),
+          ),
           backgroundColor: Colors.teal,
           leading: IconButton(
             icon: const Icon(Icons.arrow_back, color: Colors.white),
@@ -76,7 +78,7 @@ void main() {
             ),
             const SizedBox(height: 20),
             Text(
-              'Alread have an account? SignIn ',
+              'Already have an account? SignIn ',
               style: TextStyle(color: Colors.black),
             ),
           ],
